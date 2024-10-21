@@ -22,3 +22,40 @@ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
 
 }
+
+.box{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.button{
+
+background:slateblue;
+size: 35px;
+font-family: "Varela Round", sans-serif;
+font-weight: 400;
+font-style: normal;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-left: 0.6rem;
+padding-right: 0.6rem;
+
+color: #fff;
+font-size: 20px;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+border: none;
+border-radius: 15px;
+z-index: 2;
+cursor: pointer;
+
+}
+
+.button:hover{
+
+    transform: translate(0.2rem,0.1rem);
+    transition-duration: 0.8s;
+}
