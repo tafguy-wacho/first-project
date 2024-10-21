@@ -71,7 +71,7 @@ cursor: pointer;
 
 .navbar{
 
-    display: flex;
+display: flex;
 flex-direction: row;
 align-items: center;
 
