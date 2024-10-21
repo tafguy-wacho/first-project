@@ -59,3 +59,29 @@ cursor: pointer;
     transform: translate(0.2rem,0.1rem);
     transition-duration: 0.8s;
 }
+
+.logo{
+
+        width: 8rem;
+        height: 5rem;
+        margin-top: 10px;
+        margin-left: 20px;
+
+}
+
+.navbar{
+
+    display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+.links{
+
+display: flex;
+list-style: none;
+flex-direction:row;
+margin-right: 5rem;
+
+}
